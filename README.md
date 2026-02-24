@@ -18,6 +18,10 @@ An AI agent that helps users build a personal conference schedule.
   ```bash
   uv run gradio_app.py
   ```
+  or
+  ```bash
+  uv run python gradio_app.py
+  ```
   Then open the URL shown in the terminal (e.g. http://127.0.0.1:7860). Create a session, optionally upload a `schedule.json` (pretalx format), and describe your goal (conference + interests); the agent will clarify if needed, then plan and execute.
 
 - **CLI-style single run (no UI):**
