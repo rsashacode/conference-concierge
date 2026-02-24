@@ -4,6 +4,30 @@ An AI agent that helps users build a personal conference schedule.
 
 ---
 
+## Run instructions
+
+- **Python:** 3.12+
+- **Setup:** From the project root, create a venv and install with [uv](https://docs.astral.sh/uv/) (or pip):
+  ```bash
+  uv sync
+  ```
+- **Environment:** Create a `.env` file in the project root and set:
+  - `OPENAI_API_KEY` – required for agents and RAG (embeddings, rerank).
+  - `SERPER_API_KEY` – required for `google_web_search` and `google_places_search`.
+- **Run the Gradio UI:**
+  ```bash
+  uv run gradio_app.py
+  ```
+  Then open the URL shown in the terminal (e.g. http://127.0.0.1:7860). Create a session, optionally upload a `schedule.json` (pretalx format), and describe your goal (conference + interests); the agent will clarify if needed, then plan and execute.
+
+- **CLI-style single run (no UI):**
+  ```bash
+  uv run python -m src.app
+  ```
+  (Uses a one-off conversation and the example flow in `__main__`.)
+
+---
+
 ## Repository structure
 
 ```
@@ -118,30 +142,6 @@ RAG runs per session: upload a pretalx-style `schedule.json` in the UI (stored u
 - **Planning:** Only the current `query_to_plan` string (one summary). No full history for clarity.
 - **Executor (per task):** System prompt + one user message containing: previous tasks’ descriptions and results, current `synthesized_schedule`, and current task description. Then that task’s `execution_history` (assistant/tool messages). We do not feed other tasks’ raw tool traffic; only their final results. This caps context per task and avoids prompt bloat.
 - **Overflow mitigation:** Executor has a max turns per task (~20). For longer runs we could truncate or summarize old tool results and keep the last K messages per task.
-
----
-
-## Run instructions
-
-- **Python:** 3.12+
-- **Setup:** From the project root, create a venv and install with [uv](https://docs.astral.sh/uv/) (or pip):
-  ```bash
-  uv sync
-  ```
-- **Environment:** Create a `.env` file in the project root and set:
-  - `OPENAI_API_KEY` – required for agents and RAG (embeddings, rerank).
-  - `SERPER_API_KEY` – required for `google_web_search` and `google_places_search`.
-- **Run the Gradio UI:**
-  ```bash
-  uv run gradio_app.py
-  ```
-  Then open the URL shown in the terminal (e.g. http://127.0.0.1:7860). Create a session, optionally upload a `schedule.json` (pretalx format), and describe your goal (conference + interests); the agent will clarify if needed, then plan and execute.
-
-- **CLI-style single run (no UI):**
-  ```bash
-  uv run python -m src.app
-  ```
-  (Uses a one-off conversation and the example flow in `__main__`.)
 
 ---
 
