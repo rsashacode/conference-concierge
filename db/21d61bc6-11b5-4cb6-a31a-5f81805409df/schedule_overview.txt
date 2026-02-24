@@ -1,0 +1,338 @@
+# PyCon DE & PyData 2025
+
+## 2025-04-23
+
+- 11:45 | Dynamicum | PyData: Data Handling & Engineering
+  Power up your Polars code with Polars extention
+- 14:30 | Dynamicum | PyData: Machine Learning & Deep Learning & Statistics
+  supplyseer: Computational Supply Chain with Python
+- 16:10 | Dynamicum | PyData: Machine Learning & Deep Learning & Statistics
+  Conformal Prediction: uncertainty quantification to humanise models
+- 17:10 | Dynamicum | PyData: Research Software Engineering
+  Citation is Collaboration: Software Recognition in Research and Industry
+- 17:50 | Dynamicum | PyData: Data Handling & Engineering
+  Build a personalized Commute agent in Python with Hopsworks, LangGraph and LLM Function Calling
+- 12:25 | Europium2 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Building an Open Source RAG System for the United Nations Negotiations on Global Plastic Pollution
+- 14:30 | Europium2 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Taking Control of LLM Outputs: An Introductory Journey into Logits
+- 15:10 | Europium2 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Beyond Basic Prompting: Supercharging Open Source LLMs with LMQL's Structured Generation
+- 16:10 | Europium2 | General: Education, Career & Life
+  Beyond FOMO — Keeping Up-to-Date in AI
+- 17:10 | Europium2 | PyData: Generative AI
+  Secure “Human in the Loop” Interactions for AI Agents
+- 17:50 | Europium2 | PyCon: MLOps & DevOps
+  Streamlining Python deployment with Pixi:  A Perspective from production
+- 14:30 | Ferrum | PyCon: MLOps & DevOps
+  Instrumenting Python Applications with OpenTelemetry
+- 16:10 | Ferrum | PyData: Generative AI
+  Building Serverless Python AI skills as WASM components
+- 17:10 | Ferrum | PyCon: Testing
+  Supercharge Your Testing with inline-snapshot
+- 17:50 | Ferrum | PyData: PyData & Scientific Libraries Stack
+  Zero Code Change Acceleration: familiar interfaces and high performance
+- 11:45 | Hassium | General: Ethics & Privacy
+  Are LLMs the answer to all our problems?
+- 12:25 | Hassium | General: Others
+  The aesthetics of AI: from cyberpunk to fascism
+- 14:30 | Hassium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Autonomous Browsing using Large Action Models
+- 15:10 | Hassium | PyData: Generative AI
+  PDFs - When a thousand words are worth more than a picture (or table).
+- 16:10 | Hassium | General: Ethics & Privacy
+  Driving Trust and Addressing Ethical Challenges in Transportation through Explainable AI
+- 17:10 | Hassium | PyCon: Security
+  Enhancing Software Supply Chain Security with Open Source Python Tools
+- 17:50 | Hassium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Modern NLP for Proactive Harmful Content Moderation
+- 11:45 | Helium3 | PyData: Data Handling & Engineering
+  Introducing the Synthetic Data SDK - Privacy Preserving Synthetic Data for AI/ML
+- 12:25 | Helium3 | PyData: Machine Learning & Deep Learning & Statistics
+  expectation: A modern take on statistical A/B testing with e-values and martingales
+- 14:30 | Helium3 | PyData: Machine Learning & Deep Learning & Statistics
+  Benchmarking Time Series Foundation Models with sktime
+- 15:10 | Helium3 | PyData: Data Handling & Engineering
+  PyData Stack: Pure Python open source data platforms
+- 16:10 | Helium3 | PyData: Machine Learning & Deep Learning & Statistics
+  How to use Data Science Superpowers in real life, a Bayesian perspective
+- 17:10 | Helium3 | General: Others
+  Information Retrieval Without Feeling Lucky: The Art and Science of Search
+- 17:50 | Helium3 | General: Rust
+  🦀 Rüstzeit: Asynchronous Concurrency in Python & Rust
+- 12:25 | Palladium | PyData: Data Handling & Engineering
+  From Tensors to Clouds — A Practical Guide to Zarr V3 and Zarr-Python 3
+- 14:30 | Palladium | PyData: Machine Learning & Deep Learning & Statistics
+  Reinforcement Learning Without a PhD: A Python Developer’s Journey
+- 15:10 | Palladium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Building Reliable AI Agents for Publishing: A DSPy-Based Quality Assurance Framework
+- 16:10 | Palladium | PyCon: Django & Web
+  Deploying Synchronous and Asynchronous Django Applications for Hobby Projects
+- 17:10 | Palladium | PyData: Research Software Engineering
+  Getting Started with Bayes in Engineering: Implementing Kalman Filters with RxInfer.jl
+- 17:50 | Palladium | PyData: PyData & Scientific Libraries Stack
+  Streamlining the Cosmos: Pythonic Workflow Management for Astronomical Analysis
+- 11:45 | Platinum3 | PyData: Machine Learning & Deep Learning & Statistics
+  Interactive end-to-end root-cause analysis with explainable AI in a Python Shiny App
+- 12:25 | Platinum3 | PyData: Generative AI
+  Generative AI Monitoring with PydanticAI and Logfire
+- 14:30 | Platinum3 | PyData: Generative AI
+  AI coding agent - what it is, how it works and is it good for developers
+- 15:10 | Platinum3 | PyData: Visualisation & Jupyter
+  Inclusive Data for 1.3 Billion: Designing Accessible Visualizations
+- 16:10 | Platinum3 | PyData: Generative AI
+  Jeannie: An Agentic Field Worker Assistant
+- 17:10 | Platinum3 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Generative-AI: Usecase-Specific Evaluation of LLM-powered Applications
+- 17:50 | Platinum3 | PyData: Generative AI
+  From Idea to Integration: An Intro to the Model Context Protocol (MCP)
+- 11:45 | Titanium3 | PyCon: MLOps & DevOps
+  Why E.ON Loves Python
+- 12:25 | Titanium3 | PyCon: Programming & Software Engineering
+  Why Exceptions Are Just Sophisticated Gotos - and How to Move Beyond
+- 14:30 | Titanium3 | PyData: Generative AI
+  LLM Inference Arithmetics: the Theory behind Model Serving
+- 15:10 | Titanium3 | PyCon: MLOps & DevOps
+  Size matters: Inspecting Docker images for Efficiency and Security
+- 17:10 | Titanium3 | General: Community & Diversity
+  Guiding data minds: how mentoring transforms careers for both sides
+- 17:50 | Titanium3 | PyData: PyData & Scientific Libraries Stack
+  The earth is no longer flat - introducing support for spherical geometries in Spherely and GeoPandas
+- 10:30 | Zeiss Plenary (Spectrum) | Keynote
+  Reasonable AI
+- 11:45 | Zeiss Plenary (Spectrum) | PyCon: Python Language & Ecosystem
+  Python Performance Unleashed: Essential Optimization Techniques Beyond Libraries
+- 12:25 | Zeiss Plenary (Spectrum) | PyData: Data Handling & Engineering
+  Open Table Formats in the Wild: From Parquet to Delta Lake and Back
+- 14:30 | Zeiss Plenary (Spectrum) | PyData: Machine Learning & Deep Learning & Statistics
+  From Trees to Transformers: Our Journey Towards Deep Learning for Ranking
+- 15:10 | Zeiss Plenary (Spectrum) | General: Others
+  Beyond Agents: What AI Strategy Really Needs in 2025
+- 16:10 | Zeiss Plenary (Spectrum) | PyData: Machine Learning & Deep Learning & Statistics
+  Mastering Demand Forecasting: Lessons from Europe's Largest Retailer
+- 17:10 | Zeiss Plenary (Spectrum) | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Conquering PDFs: document understanding beyond plain text
+- 17:50 | Zeiss Plenary (Spectrum) | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Is Prompt Engineering Dead? How Auto-Optimization is Changing the Game
+- 18:30 | Zeiss Plenary (Spectrum) | General: Others
+  Lightning Talks (1/2)
+
+## 2025-04-24
+
+- 09:00 | Carbonium | PyData: Embedded Systems & Robotics
+  Mini-Pythonistas: Coding, Experimenting, and Exploring with Zümi!
+- 10:15 | Dynamicum | General: Education, Career & Life
+  Career Path Experience Stories
+- 14:20 | Dynamicum | PyData: Generative AI
+  AI Agents of Change: Creating, Reflecting, and Monetizing
+- 16:15 | Dynamicum | PyData: Machine Learning & Deep Learning & Statistics
+  The future of AI training is federated
+- 10:15 | Europium2 | PyData: Machine Learning & Deep Learning & Statistics
+  Blazing-Fast Python in Your Database: Unlocking Data Science at Scale with Exasol
+- 10:55 | Europium2 | PyData: Machine Learning & Deep Learning & Statistics
+  Scalable Python and SQL Data Engineering without Migraines
+- 11:35 | Europium2 | PyData: Machine Learning & Deep Learning & Statistics
+  Bias Meets Bayes: A Bayesian Perspective on Improving Model Fairness
+- 14:20 | Europium2 | PyCon: Programming & Software Engineering
+  Oh my license! – Achieving order by automation in the license chaos of your dependencies
+- 15:00 | Europium2 | General: Infrastructure - Hardware & Cloud
+  Quiet on Set: Building an On-Air Sign with Open Source Technologies
+- 16:15 | Europium2 | PyCon: MLOps & DevOps
+  Building a Self-Hosted MLOps Platform with Kubernetes
+- 16:55 | Europium2 | PyCon: Programming & Software Engineering
+  From Algorithm to Action: Building a DIY Distributed Trading Platform with Open Source
+- 10:15 | Ferrum | PyData: PyData & Scientific Libraries Stack
+  BayBE: A Bayesian Back End for Experimental Planning in the Low-To-No-Data Regime
+- 14:20 | Ferrum | PyData: Machine Learning & Deep Learning & Statistics
+  Unlocking the Predictive Power of Relational Data with Automated Feature Engineering
+- 16:15 | Ferrum | PyCon: Testing
+  pytest - simple, rapid and fun testing with Python
+- 10:15 | Hassium | PyCon: MLOps & DevOps
+  Scaling Python: An End-to-End ML Pipeline for ISS Anomaly Detection with Kubeflow
+- 10:55 | Hassium | PyCon: Programming & Software Engineering
+  Outgrowing your node? Zero stress scaling with cuPyNumeric.
+- 11:35 | Hassium | PyCon: Django & Web
+  Beyond Alembic and Django Migrations
+- 14:20 | Hassium | PyCon: MLOps & DevOps
+  Writing reliable software while depending on hazardous APIs
+- 15:00 | Hassium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Decoding Topics: A Comparative Analysis of Python’s Leading Topic Modeling Libraries Using Climate C
+- 16:15 | Hassium | PyCon: Django & Web
+  Conquering the Queue: Lessons from processing one billion Celery tasks
+- 16:55 | Hassium | PyCon: Django & Web
+  From LIKE to Love: Adding Proper Search to Your Django Apps
+- 10:15 | Helium3 | PyData: Machine Learning & Deep Learning & Statistics
+  Unforgettable, that's what you are: Evaluating Machine Unlearning and Forgetting
+- 10:55 | Helium3 | PyCon: MLOps & DevOps
+  Oh, no! Users love my GenAI-Prototype and want to use it more.
+- 11:35 | Helium3 | PyData: Data Handling & Engineering
+  Bridging the gap: unlocking SAP data for data lakes with Python and PySpark via SAP Datasphere
+- 14:20 | Helium3 | PyData: Data Handling & Engineering
+  Analyze data easily with duckdb - and the implications on data architectures
+- 15:00 | Helium3 | PyData: Data Handling & Engineering
+  Scraping LEGO for Fun: A Hacky Dive into Dynamic Data Extraction
+- 16:15 | Helium3 | PyCon: Python Language & Ecosystem
+  Optimizing in the Python Ecosystem – Powered by Gurobi
+- 16:55 | Helium3 | PyData: Data Handling & Engineering
+  Challenges and Lessons Learned While Building a Real-Time Lakehouse using Apache Iceberg and Kafka
+- 10:15 | OpenSpace | General: Education, Career & Life
+  Probably Fun: Board Games to teach Data Science
+- 10:15 | Palladium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Multi-tenant Conversational Analytics
+- 10:55 | Palladium | PyCon: Security
+  Navigating the Security Maze: An Interactive Adventure
+- 11:35 | Palladium | PyData: Generative AI
+  Securing Generative AI: Essential Threat Modeling Techniques
+- 14:20 | Palladium | PyData: Generative AI
+  Machine Reasoning and System 2 Thinking
+- 15:00 | Palladium | PyData: Generative AI
+  Securing RAG Pipelines with Fine Grained Authorization
+- 16:15 | Palladium | PyCon: Programming & Software Engineering
+  Streaming at 30,000 Feet: A Real-Time Journey from APIs to Stream Processing
+- 16:55 | Palladium | PyData: Machine Learning & Deep Learning & Statistics
+  Transformers for Game Log Data
+- 10:15 | Platinum3 | PyData: Embedded Systems & Robotics
+  Building versatile operating setups for real world use and testing with Python and the Raspberry Pi
+- 10:55 | Platinum3 | PyData: Generative AI
+  Composable AI: Building Next-Gen AI Agents with MCP
+- 11:35 | Platinum3 | PyCon: MLOps & DevOps
+  Going Global: Taking code from research to operational open ecosystem for AI weather forecasting
+- 14:20 | Platinum3 | PyData: Data Handling & Engineering
+  Dataframely — A declarative, 🐻‍❄️-native data frame validation library
+- 15:00 | Platinum3 | PyData: Machine Learning & Deep Learning & Statistics
+  Accuracy Is Not Enough: Building Trustworthy AI with Conformal Prediction
+- 16:15 | Platinum3 | PyData: Data Handling & Engineering
+  Cache me if you can: Boosted application performance with Redis and client-side caching
+- 16:55 | Platinum3 | PyData: PyData & Scientific Libraries Stack
+  A11y Need Is Love (But Accessible Docs Help Too)
+- 10:15 | Titanium3 | PyCon: MLOps & DevOps
+  Design, Generate, Deploy:  Contract-First with FastAPI
+- 10:55 | Titanium3 | PyCon: Programming & Software Engineering
+  Serverless Orchestration: Exploring the Future of Workflow Automation
+- 11:35 | Titanium3 | PyCon: Django & Web
+  Reinventing Streamlit
+- 14:20 | Titanium3 | PyCon: Programming & Software Engineering
+  Duplicate Code Dilemma: Unlocking Automation with Open Source!
+- 15:00 | Titanium3 | PyData: Data Handling & Engineering
+  Distributed file-systems made easy with Python's fsspec
+- 16:15 | Titanium3 | PyCon: Django & Web
+  Learnings from migrating a Flask app to FastAPI
+- 16:55 | Titanium3 | PyData: Generative AI
+  Lessons learned in bringing a RAG chatbot with access to 50k+ diverse documents to production
+- 09:05 | Zeiss Plenary (Spectrum) | Keynote
+  Chasing the Dark Universe with Euclid and Python: Unveiling the Secrets of the Cosmos
+- 10:15 | Zeiss Plenary (Spectrum) | PyCon: Python Language & Ecosystem
+  Algorithmic Music Composition With Python
+- 11:00 | Zeiss Plenary (Spectrum) | General: Others
+  AI in Reality Fireside Chat: Enterprise AI & Open‑Source Innovation
+- 13:25 | Zeiss Plenary (Spectrum) | Keynote
+  Machine Learning Models in a Dynamic Environment
+- 14:20 | Zeiss Plenary (Spectrum) | PyCon: Security
+  Safeguard your precious API endpoints built on FastAPI using OAuth 2.0
+- 15:00 | Zeiss Plenary (Spectrum) | PyCon: Testing
+  They are not unit tests: a survey of unit-testing anti-patterns
+- 16:15 | Zeiss Plenary (Spectrum) | General: Education, Career & Life
+  PyLadies Panel: AI Skills & Careers
+- 17:45 | Zeiss Plenary (Spectrum) | General: Others
+  Lightning Talks (2/2)
+
+## 2025-04-25
+
+- 10:15 | Dynamicum | PyCon: Python Language & Ecosystem
+  The Mighty Dot - Customize Attribute Access with Descriptors
+- 13:05 | Dynamicum | PyData: Machine Learning & Deep Learning & Statistics
+  What's inside the box? Building a deep learning framework from scratch.
+- 14:40 | Dynamicum | PyData: Machine Learning & Deep Learning & Statistics
+  The Forecast Whisperer: Secrets of Model Tuning Revealed
+- 10:15 | Europium2 | General: Rust
+  Building Bare-Bones Game Physics in Rust with Python Integration
+- 10:55 | Europium2 | PyData: PyData & Scientific Libraries Stack
+  High-performance dataframe-agnostic GLMs with glum
+- 11:35 | Europium2 | PyCon: MLOps & DevOps
+  GitMLOps – How we are managing 100+ ML pipelines in AWS SageMaker
+- 13:20 | Europium2 | PyData: PyData & Scientific Libraries Stack
+  Responsible AI with fmeval - an open source library to evaluate LLMs
+- 14:00 | Europium2 | PyCon: MLOps & DevOps
+  You don’t think about your Streamlit app optimization until you try to deploy it to the cloud
+- 14:40 | Europium2 | PyData: Computer Vision (incl. Generative AI CV)
+  What do a tree and the human brain have in common-a not so serious introduction to digital pathology
+- 10:15 | Ferrum | PyData: Generative AI
+  Agentic AI: Build a Multi-Agent Application with CrewAI
+- 13:05 | Ferrum | PyData: Machine Learning & Deep Learning & Statistics
+  Reinforcement Learning for Finance
+- 14:40 | Ferrum | PyData: Machine Learning & Deep Learning & Statistics
+  Intuitive A/B Test Evaluations for Coders
+- 10:15 | Hassium | PyData: Computer Vision (incl. Generative AI CV)
+  Beyond DALL-E: Advanced Image Generation Workflows with ComfyUI
+- 10:55 | Hassium | PyData: Computer Vision (incl. Generative AI CV)
+  PosePIE: Replace Your Keyboard and Mouse With AI-Driven Gesture Control
+- 11:35 | Hassium | PyCon: MLOps & DevOps
+  Guardians of the Code: Safeguarding Machine Learning Models in a Climate Tech World
+- 13:20 | Hassium | General: Rust
+  Vector Streaming: The Memory Efficient Indexing for Vector Databases
+- 14:00 | Hassium | PyData: Research Software Engineering
+  Pipeline-level differentiable programming for the real world
+- 14:40 | Hassium | PyData: Data Handling & Engineering
+  From Rules to Reality: Python's Role in Shaping Roundnet
+- 10:15 | Helium3 | PyCon: Django & Web
+  FastHTML vs. Streamlit - The Dashboarding Face Off
+- 10:55 | Helium3 | PyCon: Django & Web
+  Death by a Thousand API Versions
+- 11:35 | Helium3 | PyCon: Security
+  Hands-On LLM Security: Attacks and Countermeasures You Need to Know!
+- 13:20 | Helium3 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Electify - Retrieval-Augmented Generation for Voter Information in the 2024 European Election
+- 14:00 | Helium3 | General: Rust
+  Practical Python/Rust: Building and Maintaining Dual-Language Libraries
+- 14:40 | Helium3 | General: Education, Career & Life
+  Switching from Data Scientist to Manager
+- 10:15 | Palladium | PyData: Machine Learning & Deep Learning & Statistics
+  Towards Intelligent Monitoring: Detecting Degraded Flame Torch Nozzles
+- 10:55 | Palladium | General: Infrastructure - Hardware & Cloud
+  Filling in the Gaps: When Terraform Falls Short, Python and Typer Step In
+- 11:35 | Palladium | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Code & Community: The Synergy of Community Building and Task Automation
+- 13:20 | Palladium | General: Education, Career & Life
+  What we talk about when we talk about AI skills.
+- 14:00 | Palladium | PyData: Visualisation & Jupyter
+  Optimizing Energy Tariffing System with Formal Concept Analysis and Dash
+- 14:40 | Palladium | PyCon: Python Language & Ecosystem
+  Langfuse, OpenLIT, and Phoenix: Observability for the GenAI Era
+- 10:15 | Platinum3 | PyData: Data Handling & Engineering
+  Where have all the post offices gone? Discovering neighborhood facilities with Python and OSM
+- 10:55 | Platinum3 | PyData: Machine Learning & Deep Learning & Statistics
+  The Foundation Model Revolution for Tabular Data
+- 11:35 | Platinum3 | PyData: Generative AI
+  Enhancing RAG with Fast GraphRAG and InstructLab: A Scalable, Interpretable, and Efficient Framework
+- 13:20 | Platinum3 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Is your LLM any good at writing? Benchmarking on creative writing and editing tasks
+- 14:00 | Platinum3 | PyData: PyData & Scientific Libraries Stack
+  Using Causal thinking to make Media Mix Modeling
+- 14:40 | Platinum3 | PyData: Natural Language Processing & Audio (incl. Generative AI NLP)
+  Building a HybridRAG Document Question-Answering System
+- 10:15 | Titanium3 | PyCon: Testing
+  From Queries to Confidence: Ensuring SQL Reliability with Python
+- 10:55 | Titanium3 | PyData: Embedded Systems & Robotics
+  Using Python to enter the world of Microcontrollers
+- 11:35 | Titanium3 | PyCon: Programming & Software Engineering
+  Rustifying Python: A Practical Guide to Achieving High Performance While Maintaining Observability
+- 13:20 | Titanium3 | PyData: PyData & Scientific Libraries Stack
+  Extending Python with Rust, Mojo, Cuda and C and building packages
+- 14:00 | Titanium3 | General: Infrastructure - Hardware & Cloud
+  Offline Disaster Relief Coordination with OpenStreetMap and FastAPI
+- 14:40 | Titanium3 | PyData: Machine Learning & Deep Learning & Statistics
+  3 Ways to Speed up Your Regression Modeling in Python
+- 09:05 | Zeiss Plenary (Spectrum) | Keynote
+  The Future of AI: Building the Most Impactful Technology Together
+- 10:15 | Zeiss Plenary (Spectrum) | PyCon: MLOps & DevOps
+  Data as (Python) Code
+- 10:55 | Zeiss Plenary (Spectrum) | PyData: PyData & Scientific Libraries Stack
+  How Narwhals is silently bringing pandas, Polars, DuckDB, PyArrow, and more together
+- 11:35 | Zeiss Plenary (Spectrum) | PyData: PyData & Scientific Libraries Stack
+  Topological data analysis: How to quantify "holes" in your data and why?
+- 13:20 | Zeiss Plenary (Spectrum) | PyData: Machine Learning & Deep Learning & Statistics
+  From stockouts to happy customers: Proven solutions for time series forecasting in retail
+- 14:00 | Zeiss Plenary (Spectrum) | PyData: Machine Learning & Deep Learning & Statistics
+  Forecast of Hourly Train Counts on Rail Routes Affected by Construction Work
+- 14:40 | Zeiss Plenary (Spectrum) | PyCon: Programming & Software Engineering
+  Demystifying Design Patterns: A Practical Guide for Developers
