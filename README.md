@@ -1,7 +1,6 @@
 # Conference Concierge
 
-An AI agent that helps users build a personal conference schedule: **goal → plan → execution → result.**  
-No agent frameworks (LangChain, LangGraph, etc.)—custom loop, prompts, and context handling.
+An AI agent that helps users build a personal conference schedule.
 
 ---
 
@@ -13,7 +12,7 @@ libra_ai_engineering_take_home/
 ├── session_store.py                # Session CRUD, file save to db/<session_id>/uploaded/, history/plan load/save
 ├── src/
 │   ├── app.py                      # ConferenceConcierge: run_step loop, checkpoints, agent orchestration
-│   ├── state.py                    # AgentState, StateCheckpoint (conversation + plan + synthesized_schedule)
+│   ├── state.py                    # AgentState, StateCheckpoint (conversation + plan + generated schedule)
 │   ├── prompts.py                  # System prompts for Intake, Planning, Executor agents
 │   ├── responses.py                # Pydantic models: IntakeDecision, Task, Plan, PlanDescription
 │   ├── guardrails.py               # check_input / check_output for user and assistant messages
@@ -105,7 +104,7 @@ State is checkpointed after: user input, intake, planning, and each executor run
 | **rag_search** | Semantic search over the user’s uploaded schedule (Chromadb + OpenAI embeddings, optional LLM rerank). Use for topic-specific sessions (e.g. "RAG", "keynotes"). |
 | **google_web_search** | Web search via [Serper](https://serper.dev) (e.g. conference info, program details). |
 | **google_places_search** | Places/venues/restaurants via Serper (e.g. lunch near venue). |
-| **generate_schedule** | LLM synthesizes a personal schedule from completed task results and current synthesized schedule. Can be called multiple times to refine. |
+| **generate_schedule** | LLM generates a personal schedule from completed task results and current generated schedule. Can be called multiple times to refine. |
 | **submit_task_result** | Required to mark a task complete; passes the full result string to the next steps. |
 
 RAG runs per session: upload a pretalx-style `schedule.json` in the UI (stored under `db/<session_id>/uploaded/`); it is indexed under `db/<session_id>/` (Chromadb + overview text). The executor injects `session_id` into RAG tools.  
@@ -164,7 +163,7 @@ You can reproduce this flow in the Gradio UI (or adapt it for the CLI).
 
    > I would like to visit PyConDE in Darmstadt 2025. I am flexible and available all day long and do not have food preferences, but I would like to have lunch as close to the venue as possible at a place that has at least 4.5 stars on google. I am most interested in RAG topics at the conference.
 
-   **Intake** will set `query_to_plan`, **Planning** will produce tasks (e.g. get schedule overview, find RAG-related sessions, find lunch near venue, generate personal schedule), and **Execution** will run each task (RAG/search/places tools, then `generate_schedule`). The final assistant message will be your synthesized schedule.
+   **Intake** will set `query_to_plan`, **Planning** will produce tasks (e.g. get schedule overview, find RAG-related sessions, find lunch near venue, generate personal schedule), and **Execution** will run each task (RAG/search/places tools, then `generate_schedule`). The final assistant message will be your generated schedule.
 
 ---
 
